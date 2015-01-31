@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "mialibreria.h"
 
 /* PROTOTIPI DELLE FUNZIONI */
 /* La dichiarazione e la definizione di una funzione possono essere separate.
@@ -11,13 +12,7 @@
  * La definizione della funzione è ottenuta mediante la definizione del suo
  * corpo. La parte definitoria si trova dopo la funzione main. 
  */
-float somma(float a, float b);
-float sottrazione(float a, float b);
-float prodotto(float a, float b);
-float divisione(float a, float b);
-int quoziente(int a, int b);
-float frazionale(int a, int b);
-float potenza(float base, int esponente);
+
 
 int main(int argc, char** argv) {
     float a, b;
@@ -78,37 +73,3 @@ int main(int argc, char** argv) {
     return (EXIT_SUCCESS);
 }
 
-float somma(float a, float b) {
-    // TODO Definire il corpo della funzione
-    return 0;
-}
-
-float sottrazione(float a, float b) {
-    // TODO Definire il corpo della funzione
-    return 0;
-}
-
-float prodotto(float a, float b) {
-    // TODO Definire il corpo della funzione
-    return 0;
-}
-
-float divisione(float a, float b) {
-    // TODO Definire il corpo della funzione
-    return 0;
-}
-
-int quoziente(int a, int b) {
-    // TODO Definire il corpo della funzione
-    return 0;
-}
-
-float frazionale(int a, int b) {
-    // TODO Definire il corpo della funzione
-    return 0;
-}
-
-float potenza(float base, int esponente) {
-    // TODO Definire il corpo della funzione
-    return 0;
-}
